@@ -6,11 +6,7 @@ Simple implementation of Particle Swarm Optimization
 
 ## usage
 
-```
-//
-// Created by iceytan on 18-12-9.
-//
-
+```c++
 #include <iostream>
 #include "PSO.h"
 
@@ -33,8 +29,8 @@ int main()
 // do pso
     auto r = pso.Process(50,51,20); // r[0] = 50.1488
 }
-
 ```
 
+Drawing code can be seen in test 
 
 ![result](image/r.png)
